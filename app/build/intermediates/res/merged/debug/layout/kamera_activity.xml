@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:background="#ffe0f567">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/frameLogo">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/logo_deteksi_tumbuhan_3"
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/kameraLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/frameLogo"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/btnTake"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnAmbilGambar"
+            android:text="AMBIL GAMBAR"
+            android:textSize="8pt"
+            android:backgroundTint="#6b7587"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onLoad"
+            android:text="LOAD GAMBAR"
+            android:textSize="8pt"
+            android:backgroundTint="#6b7587"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/D:/program_skripsi/android-project/DeteksiTumbuhan/app/src/main/res/layout/kamera_activity.xml -->

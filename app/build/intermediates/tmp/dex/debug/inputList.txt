@@ -1,0 +1,5 @@
+D:\android-projects\DeteksiTumbuhan\app\build\intermediates\classes\debug
+D:\android-projects\DeteksiTumbuhan\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-9792d51791d92eddc0d9758885c1364396bdbf7e.jar
+D:\android-projects\DeteksiTumbuhan\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-59864658463e43aa6c848cf8be1c0cf8906d7cc2.jar
+D:\android-projects\DeteksiTumbuhan\app\build\intermediates\pre-dexed\debug\classes-34c2ab0c7a5651396583c55937d5393d101975f2.jar
+D:\android-projects\DeteksiTumbuhan\app\build\intermediates\pre-dexed\debug\classes-bbda15a5139f21e9d19358b78d4919a1defec61d.jar

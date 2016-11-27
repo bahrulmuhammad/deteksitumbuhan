@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:2:1-62:12
+	xmlns:android
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:6:22-78
+uses-feature#android.hardware.camera
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:8:19-57
+application
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:10:5-60:19
+MERGED from [com.android.support:appcompat-v7:23.0.0] D:\program_skripsi\android-project\DeteksiTumbuhan\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] D:\program_skripsi\android-project\DeteksiTumbuhan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.bebenay.deteksitumbuhan.View.MainActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:16:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.bebenay.deteksitumbuhan.View.KoleksiActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:25:13-49
+intent-filter#android.intent.category.DEFAULT+com.example.KoleksiActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:27:13-31:29
+action#com.example.KoleksiActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:28:17-70
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:28:25-67
+category#android.intent.category.DEFAULT
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:30:27-73
+activity#com.example.bebenay.deteksitumbuhan.View.KameraActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:34:13-48
+intent-filter#android.intent.category.DEFAULT+com.example.KameraActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:36:13-40:29
+action#com.example.KameraActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:37:25-66
+activity#com.example.bebenay.deteksitumbuhan.View.IdentifikasiActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:42:9-50:20
+	android:label
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:43:13-54
+intent-filter#android.intent.category.DEFAULT+com.example.IdentifikasiActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:45:13-49:29
+action#com.example.IdentifikasiActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:46:17-75
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:46:25-72
+activity#com.example.bebenay.deteksitumbuhan.View.HasilActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:51:9-59:20
+	android:label
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:52:13-47
+intent-filter#android.intent.category.DEFAULT+com.example.HasilActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:54:13-58:29
+action#com.example.HasilActivity
+ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:55:17-68
+	android:name
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:55:25-65
+uses-sdk
+INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.0] D:\program_skripsi\android-project\DeteksiTumbuhan\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] D:\program_skripsi\android-project\DeteksiTumbuhan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml

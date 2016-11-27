@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffe0f567">
+
+    <TextView
+        android:id="@+id/teksGambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2pt"
+        android:text="Gambar"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <FrameLayout
+        android:id="@+id/kameraFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnIdentifikasi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="IDENTIFIKASI"
+        android:textSize="8pt"
+        android:onClick="onIdentifikasi"
+        android:backgroundTint="#6b7587"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+
+</RelativeLayout>

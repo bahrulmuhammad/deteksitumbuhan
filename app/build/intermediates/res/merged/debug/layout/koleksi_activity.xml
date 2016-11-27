@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe0f567">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layoutTengah"
+        android:layout_marginTop="5pt">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:width="110pt"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/tombolCAri"
+                    android:text="CARI"
+                    android:textSize="8pt"/>
+            </TableRow>
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/tumbuhan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/D:/program_skripsi/android-project/DeteksiTumbuhan/app/src/main/res/layout/koleksi_activity.xml -->
