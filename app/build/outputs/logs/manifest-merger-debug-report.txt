@@ -34,7 +34,7 @@ MERGED from [com.android.support:support-v4:23.0.0] D:\program_skripsi\android-p
 	android:allowBackup
 		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:12:9-45
+		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:12:9-46
 	android:theme
 		ADDED from D:\program_skripsi\android-project\DeteksiTumbuhan\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.example.bebenay.deteksitumbuhan.View.MainActivity

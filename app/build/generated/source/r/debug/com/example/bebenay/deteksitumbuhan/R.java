@@ -1564,12 +1564,14 @@ containing a value of this type.
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f02003c;
         public static final int abc_textfield_search_material=0x7f02003d;
         public static final int air_terjun=0x7f02003e;
-        public static final int ic_launcher=0x7f02003f;
-        public static final int logo_deteksi_tumbuhan=0x7f020040;
-        public static final int logo_deteksi_tumbuhan_2=0x7f020041;
-        public static final int logo_deteksi_tumbuhan_3=0x7f020042;
-        public static final int notification_template_icon_bg=0x7f020044;
-        public static final int pohon=0x7f020043;
+        public static final int dth_launcher=0x7f02003f;
+        public static final int ic_launcher=0x7f020040;
+        public static final int logo_deteksi_tanaman_hias=0x7f020041;
+        public static final int logo_deteksi_tumbuhan=0x7f020042;
+        public static final int logo_deteksi_tumbuhan_2=0x7f020043;
+        public static final int logo_deteksi_tumbuhan_3=0x7f020044;
+        public static final int notification_template_icon_bg=0x7f020046;
+        public static final int pohon=0x7f020045;
     }
     public static final class id {
         public static final int action0=0x7f0b005e;

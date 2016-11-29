@@ -13,6 +13,8 @@ import android.widget.Button;
 import com.example.bebenay.deteksitumbuhan.Model.DBadapter;
 import com.example.bebenay.deteksitumbuhan.R;
 
+import java.io.File;
+
 
 public class MainActivity extends AppCompatActivity {
     DBadapter db;
@@ -23,7 +25,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         db = new DBadapter(this);
-        tambahTanaman();
+        String dbPath = "/data/data/"+getPackageName()+"/databases/";
+        String dbDir = dbPath+"tanaman_hias";
+
+        File f = new File(dbDir);
+        if (!f.exists()) {
+            tambahTanaman();
+        }
+
 
         Button tombolKoleksi = (Button) findViewById(R.id.tombolKoleksi);
         Button tombolDeteksi = (Button) findViewById(R.id.tombolDeteksi);
